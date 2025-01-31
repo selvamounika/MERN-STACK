@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/home">home</a></li>
+                <li><a href ="/about">about</a></li>
+                <li><a href ="/contact">contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <p> WE ARE AT THE MAIN PAGE from ejs</p>
+            <%= data%>
+            <%array.map((i)=>{ %>
+                <p><%= i %></p>
+            <%})%>
+        </div>
+    </main>
+    <footer>footer</footer>
+    
+</body>
+</html>
