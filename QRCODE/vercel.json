@@ -1,0 +1,6 @@
+{
+    "env": {
+      "API_URL": "https://your-vercel-backend-url.vercel.app"
+    }
+  }
+  
